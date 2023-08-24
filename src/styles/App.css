@@ -30,7 +30,14 @@ footer {
   padding: 20px;
   border-top: 1px solid #2c2c2c;
 }
-footer p {
+p {
+  color: #52525b;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+.footer {
+  text-align: center;
   margin: 0;
   font-size: 12px;
 }
