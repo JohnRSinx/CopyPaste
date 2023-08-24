@@ -74,6 +74,10 @@ function App() {
       <CopyInput className='another' inputValue={inputValues.another} onInputChange={handleInputChange} />
       <button className='buttonGlobalReset' onClick={handleGlobalReset}>Reset All</button>
       <span>clique no botão "Reset All" para resetar os valores digitados</span>
+      <footer>
+        <p>&copy; {new Date().getFullYear()} PH. Todos os direitos reservados.</p>
+      </footer>
+     
     </main>
   );
 }
